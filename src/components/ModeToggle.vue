@@ -34,7 +34,7 @@ export default {
         <Sun v-else class="h-5 w-5" />
       </Button>
 
-      <div class="space-y-2">
+      <!-- <div class="space-y-2">
         <h1 class="text-3xl font-bold">Theme Switching</h1>
         <p class="text-muted-foreground">
           If the background is not changing, your index.css might not be loading.
@@ -45,7 +45,7 @@ export default {
         <p>
           Current Mode: <strong>{{ isDark ? 'Dark' : 'Light' }}</strong>
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
